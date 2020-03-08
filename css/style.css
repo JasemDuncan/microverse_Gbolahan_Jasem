@@ -13,7 +13,11 @@
     font-size: 5 vw;
     font-weight: 200;
     font-family: sans-serif;
-
+    display: flex;
+}
+.li-items{
+    margin-left :5px;
+    list-style-type:none ;
 }
 .title-section h1
 {
@@ -30,4 +34,21 @@
 #header
 {
     text-align: center;
+}
+
+@media screen and (min-width: 480px) {
+    body {
+      background-color: lightblue;
+    }
+  }
+  
+#welcome-section{
+    height: 100vh;
+}
+
+#navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 100%;
 }
